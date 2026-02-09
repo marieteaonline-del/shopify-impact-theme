@@ -71,6 +71,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_cbmNCU": {
+      "type": "custom-liquid",
+      "name": "Reviews",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"reviews-section\">\n  <h2>Loved by Tea Drinkers Across India</h2>\n\n  <div class=\"reviews-grid\">\n\n    <!-- Review 1 -->\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Strong flavor and perfect color. This is now my everyday tea.\n      </p>\n      <div class=\"review-user\">\n        <strong>Ramesh</strong>, Jaipur  \n        <span>CTC Leaf Tea</span>\n      </div>\n    </div>\n\n    <!-- Review 2 -->\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Very fresh and aromatic. Makes a great morning cup.\n      </p>\n      <div class=\"review-user\">\n        <strong>Sunita</strong>, Delhi  \n        <span>Dust Tea</span>\n      </div>\n    </div>\n\n    <!-- Review 3 -->\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★☆</div>\n      <p class=\"review-text\">\n        Smooth taste and good strength. Worth the price.\n      </p>\n      <div class=\"review-user\">\n        <strong>Arjun</strong>, Ahmedabad  \n        <span>CTC Leaf Tea</span>\n      </div>\n    </div>\n\n    <!-- Review 4 -->\n    <div class=\"review-card\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Perfect for milk tea. Consistent quality every time.\n      </p>\n      <div class=\"review-user\">\n        <strong>Meena</strong>, Indore  \n        <span>Dust Tea</span>\n      </div>\n    </div>\n\n  </div>\n</section>\n\n<style>\n/* SECTION */\n.reviews-section {\n  padding: 80px 20px;\n  background: #faf8f3;\n  text-align: center;\n}\n\n.reviews-section h2 {\n  font-size: 34px;\n  font-weight: 800;\n  margin-bottom: 40px;\n  color: #2f2f2f;\n}\n\n/* GRID */\n.reviews-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));\n  gap: 24px;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n\n/* CARD */\n.review-card {\n  background: #ffffff;\n  padding: 26px 22px;\n  border-radius: 16px;\n  box-shadow: 0 12px 30px rgba(0,0,0,0.06);\n  transition: transform 0.35s ease, box-shadow 0.35s ease;\n  animation: fadeUp 0.9s ease both;\n}\n\n.review-card:hover {\n  transform: translateY(-6px);\n  box-shadow: 0 18px 40px rgba(0,0,0,0.1);\n}\n\n/* STARS */\n.stars {\n  color: #f5a623;\n  font-size: 18px;\n  margin-bottom: 10px;\n  letter-spacing: 1px;\n}\n\n/* TEXT */\n.review-text {\n  font-size: 15px;\n  line-height: 1.6;\n  color: #555;\n  margin-bottom: 16px;\n}\n\n/* USER */\n.review-user {\n  font-size: 14px;\n  color: #333;\n}\n\n.review-user span {\n  display: block;\n  font-size: 13px;\n  color: #2e7d32;\n  margin-top: 4px;\n  font-weight: 600;\n}\n\n/* ANIMATION */\n@keyframes fadeUp {\n  from {\n    opacity: 0;\n    transform: translateY(30px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n/* MOBILE */\n@media (max-width: 768px) {\n  .reviews-section h2 {\n    font-size: 26px;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_html_qGYnDj": {
       "type": "custom-html",
       "settings": {
@@ -135,6 +148,7 @@
   },
   "order": [
     "text-with-icons",
+    "custom_liquid_cbmNCU",
     "custom_html_qGYnDj",
     "footer"
   ]
