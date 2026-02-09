@@ -105,14 +105,14 @@
         "links_APJXyX": {
           "type": "links",
           "settings": {
-            "menu": "",
+            "menu": "customer-care",
             "show_menu_title": true
           }
         },
         "links_RYp8C9": {
           "type": "links",
           "settings": {
-            "menu": "",
+            "menu": "customer-account-main-menu",
             "show_menu_title": true
           }
         }
