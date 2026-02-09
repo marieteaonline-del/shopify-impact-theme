@@ -16,7 +16,7 @@
     },
     "featured_collection_jjBxmJ": {
       "type": "featured-collection",
-      "name": "Featured collection",
+      "name": "CTC Collection",
       "settings": {
         "collection": "ctc-leaf-tea",
         "products": [],
@@ -27,8 +27,34 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Featured collection",
-        "content": "",
+        "title": "CTC Leaf Tea",
+        "content": "<p>Strong taste, rich aroma, and consistent quality for everyday brewing.<br/></p>",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "featured_collection_MNXRf4": {
+      "type": "featured-collection",
+      "name": "Dust Tea Collection",
+      "settings": {
+        "collection": "dust-tea",
+        "products": [],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "CTC Leaf Tea",
+        "content": "<p>Strong taste, rich aroma, and consistent quality for everyday brewing.<br/></p>",
         "link_url": "",
         "link_text": "View all",
         "background": "",
@@ -43,6 +69,7 @@
   },
   "order": [
     "main",
-    "featured_collection_jjBxmJ"
+    "featured_collection_jjBxmJ",
+    "featured_collection_MNXRf4"
   ]
 }
