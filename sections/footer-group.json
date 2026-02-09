@@ -23,8 +23,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "7-Day Return & Exchange",
-            "content": "<p>Hassle-free shopping with Zyra Drip’s 7-day easy returns.<br/></p>"
+            "title": "Easy Tracking",
+            "content": "<p><br/>Track your Marie Tea order instantly on WhatsApp with real-time updates.<br/><br/></p>"
           }
         },
         "free-shipping": {
@@ -36,21 +36,21 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Enjoy free and fast shipping on all prepaid orders.</p>"
+            "title": "Fast Delivery",
+            "content": "<p><br/>Quick dispatch and reliable delivery so your Marie Tea reaches you fresh, on time.<br/><br/></p>"
           }
         },
         "payment": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
+            "icon": "picto-leaf",
             "mobile_icon_width": 24,
             "icon_width": 24,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Razorpay trusted business with Cash on Delivery available.<br/></p>"
+            "title": "Since 1991",
+            "content": "<p><br/>Trusted taste and quality, perfected over decades of tea expertise.<br/><br/></p>"
           }
         }
       },
@@ -105,14 +105,14 @@
         "links_APJXyX": {
           "type": "links",
           "settings": {
-            "menu": "my-account",
+            "menu": "",
             "show_menu_title": true
           }
         },
         "links_RYp8C9": {
           "type": "links",
           "settings": {
-            "menu": "zyra-drip-international",
+            "menu": "",
             "show_menu_title": true
           }
         }
