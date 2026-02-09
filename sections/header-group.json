@@ -17,21 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Buy Any 2 Baby Tees at ₹699",
+            "text": "Free Delivery Above ₹499",
             "url": ""
           }
         },
         "message_qyzxWx": {
           "type": "message",
           "settings": {
-            "text": "FREE Shipping & COD Available",
+            "text": "Fast Delivery Across India",
             "url": ""
           }
         },
         "message_YHBNeL": {
           "type": "message",
           "settings": {
-            "text": "24-48 Hours Delivery in BLR - Fast Across India",
+            "text": "Marie Tea - Since 1991",
             "url": ""
           }
         }
