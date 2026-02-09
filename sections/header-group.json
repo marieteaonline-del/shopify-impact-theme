@@ -75,24 +75,10 @@
         "background_opacity": 100,
         "background_blur_radius": 0
       }
-    },
-    "custom_html_eE4iiK": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "full_width": false,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "html": "<section class=\"ctc-hero\">\n  <div class=\"ctc-content\">\n    <span class=\"ctc-badge\">Authentic Indian CTC Tea</span>\n    <h2>Strong. Fresh. Everyday Perfect.</h2>\n    <p>\n      Experience the bold flavor and rich aroma of Marie CTC Leaf Tea.\n      Carefully sourced and hygienically packed to deliver a strong cup,\n      every single time.\n    </p>\n\n    <a href=\"/collections/ctc-leaf-tea\" class=\"ctc-btn\">\n      Explore CTC Collection →\n    </a>\n  </div>\n</section>\n\n<style>\n/* SECTION WRAPPER */\n.ctc-hero {\n  padding: 90px 20px;\n  background: linear-gradient(135deg, #f5f7f2, #eef3ec);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  overflow: hidden;\n}\n\n/* CONTENT */\n.ctc-content {\n  max-width: 900px;\n  text-align: center;\n  animation: fadeUp 1.2s ease forwards;\n}\n\n/* BADGE */\n.ctc-badge {\n  display: inline-block;\n  background: #2e7d32;\n  color: #fff;\n  padding: 6px 14px;\n  border-radius: 20px;\n  font-size: 13px;\n  letter-spacing: 0.5px;\n  margin-bottom: 18px;\n  animation: fadeIn 1.5s ease;\n}\n\n/* HEADING */\n.ctc-content h2 {\n  font-size: 42px;\n  font-weight: 800;\n  color: #1f2d1f;\n  margin-bottom: 16px;\n}\n\n/* TEXT */\n.ctc-content p {\n  font-size: 17px;\n  line-height: 1.7;\n  color: #4b5f4b;\n  max-width: 700px;\n  margin: 0 auto 30px;\n}\n\n/* BUTTON */\n.ctc-btn {\n  display: inline-block;\n  padding: 14px 32px;\n  background: #2e7d32;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 600;\n  border-radius: 40px;\n  text-decoration: none;\n  transition: all 0.35s ease;\n}\n\n.ctc-btn:hover {\n  background: #1b5e20;\n  transform: translateY(-3px);\n  box-shadow: 0 12px 25px rgba(46, 125, 50, 0.25);\n}\n\n/* ANIMATIONS */\n@keyframes fadeUp {\n  from {\n    opacity: 0;\n    transform: translateY(30px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n@keyframes fadeIn {\n  from { opacity: 0; }\n  to { opacity: 1; }\n}\n\n/* MOBILE */\n@media (max-width: 768px) {\n  .ctc-content h2 {\n    font-size: 30px;\n  }\n\n  .ctc-content p {\n    font-size: 15px;\n  }\n\n  .ctc-hero {\n    padding: 60px 16px;\n  }\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "custom_html_eE4iiK"
+    "header"
   ]
 }
