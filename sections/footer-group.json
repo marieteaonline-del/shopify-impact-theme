@@ -59,6 +59,7 @@
         "free-shipping",
         "payment"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -147,8 +148,8 @@
     }
   },
   "order": [
-    "text-with-icons",
     "custom_liquid_cbmNCU",
+    "text-with-icons",
     "custom_html_qGYnDj",
     "footer"
   ]
