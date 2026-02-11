@@ -164,7 +164,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* Strong selector for Impact theme */body.template-page main h1:first-of-type {display: none !important;}"
+      "/* Hide page titles on all normal pages in Impact */body[class*=\"page-\"] h1 {display: none !important;}"
     ]
   }
 }
