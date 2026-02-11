@@ -17,7 +17,7 @@
         "allow_transparent_header": true,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify://files/videos/desktop-video-banner.mp4",
+        "video": "shopify://files/videos/video-banner-for-desktop.mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
