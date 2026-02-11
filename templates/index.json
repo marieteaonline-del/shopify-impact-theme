@@ -9,6 +9,21 @@
  */
 {
   "sections": {
+    "video_rkeJJD": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/desktop-video-banner.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 32
+      }
+    },
     "main": {
       "type": "main-index",
       "disabled": true,
@@ -120,6 +135,7 @@
     }
   },
   "order": [
+    "video_rkeJJD",
     "main",
     "featured_collection_jjBxmJ",
     "custom_liquid_7KQPQe",
