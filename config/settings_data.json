@@ -164,7 +164,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* Hide only page H1 titles (not product/collection) */body[class*=\"page-\"] h1.h1.text-center {display: none !important;}"
+      "/* Strong Impact fix */body:not(.template-product):not(.template-collection) .page__header {display: none !important;}"
     ]
   }
 }
