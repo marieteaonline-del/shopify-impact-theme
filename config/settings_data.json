@@ -161,5 +161,10 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Hide page titles on normal pages only (Impact theme) */.template-page h1,.template-page .page__title,.template-page .main-page-title {display: none !important;}"
+    ]
   }
 }
