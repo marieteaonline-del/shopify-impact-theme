@@ -41,6 +41,7 @@
     "text_font": "din_next_n4",
     "text_font_size_desktop": 16,
     "show_page_transition": true,
+    "reduce_menu_animation": true,
     "heading_apparition": "split_fade",
     "color_swatch_style": "round",
     "color_swatch_config": "Baby Pink:#FFC0CB\nBottle Green:#006A4E\nNavy Blue:#000080",
