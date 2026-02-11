@@ -163,8 +163,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      "/* Force hide default page title in Impact */body.template-page h1.h1.text-center {display: none !important;}"
-    ]
+    "custom_css": []
   }
 }
