@@ -14,14 +14,14 @@
       "name": "Video",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
         "video": "shopify://files/videos/video-banner-for-desktop.mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 32
+        "overlay_opacity": 0
       }
     },
     "main": {
