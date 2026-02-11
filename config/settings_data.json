@@ -164,7 +164,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "/* Strong Impact fix */body:not(.template-product):not(.template-collection) .page__header {display: none !important;}"
+      "/* Force hide default page title in Impact */body.template-page h1.h1.text-center {display: none !important;}"
     ]
   }
 }
