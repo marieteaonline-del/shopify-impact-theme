@@ -9905,3 +9905,38 @@ grid-area:secondary-nav;
 .header__link-list{
 justify-content:center;
 }
+
+/* Move icons to top right */
+
+.header__secondary-nav{
+position:absolute;
+top:20px;
+right:30px;
+}
+
+.header__secondary-nav .header__link-list{
+display:none;
+}
+
+.header__secondary-nav .header__icon-list{
+display:flex;
+gap:18px;
+align-items:center;
+}
+/* Move icons to top right */
+
+.header__secondary-nav{
+position:absolute;
+top:20px;
+right:30px;
+}
+
+.header__secondary-nav .header__link-list{
+display:none;
+}
+
+.header__secondary-nav .header__icon-list{
+display:flex;
+gap:18px;
+align-items:center;
+}
