@@ -9878,7 +9878,8 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
-/* Impact theme - move navigation below logo */
+/* Desktop only header layout for Impact theme */
+@media screen and (min-width: 1024px){
 
 .header__wrapper{
 display:grid;
@@ -9904,6 +9905,8 @@ grid-area:secondary-nav;
 
 .header__link-list{
 justify-content:center;
+}
+
 }
 
 /* Desktop only header icon position fix */
