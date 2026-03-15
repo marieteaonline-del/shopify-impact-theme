@@ -9878,37 +9878,30 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
-/* Center logo and move menu below for Impact theme */
+/* Impact theme - move navigation below logo */
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.header__wrapper{
+display:grid;
+grid-template-columns:1fr;
+grid-template-areas:
+"logo"
+"main-nav"
+"secondary-nav";
+justify-items:center;
 }
 
-.header__logo {
-  order: 1;
-  margin-bottom: 10px;
+.header__logo{
+grid-area:logo;
 }
 
-.header__navigation {
-  order: 2;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.header__main-nav{
+grid-area:main-nav;
 }
 
-.header__navigation-list {
-  justify-content: center;
+.header__secondary-nav{
+grid-area:secondary-nav;
 }
 
-.header__icons {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
-.header__inline-navigation {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.header__link-list{
+justify-content:center;
 }
