@@ -9907,3 +9907,8 @@ split-lines {
   right: 20px;
   top: 20px;
 }
+.header__inline-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
