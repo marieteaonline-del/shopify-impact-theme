@@ -9878,18 +9878,32 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
-.header-wrapper {
-  text-align: center;
+/* Center logo and move menu below for Impact theme */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header__heading {
-  margin: auto;
+.header__logo {
+  order: 1;
+  margin-bottom: 10px;
 }
 
-.header__inline-menu ul {
+.header__navigation {
+  order: 2;
+  width: 100%;
+  display: flex;
   justify-content: center;
 }
 
-.header__inline-menu {
-  width: 100%;
+.header__navigation-list {
+  justify-content: center;
+}
+
+.header__icons {
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
