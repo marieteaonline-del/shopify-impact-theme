@@ -9906,7 +9906,8 @@ grid-area:secondary-nav;
 justify-content:center;
 }
 
-/* Force header icons to top right */
+/* Desktop only header icon position fix */
+@media screen and (min-width: 1024px){
 
 .header__wrapper{
 position:relative;
@@ -9923,4 +9924,6 @@ align-items:center;
 
 .header__secondary-nav .header__link-list{
 display:none;
+}
+
 }
