@@ -41,6 +41,7 @@
         "message_qyzxWx",
         "message_YHBNeL"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky": false,
         "text_size": "text-base",
