@@ -72,14 +72,29 @@
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/logo.png",
         "reduce_padding": false,
-        "background_opacity": 100,
+        "background_opacity": 0,
         "background_blur_radius": 0
+      }
+    },
+    "custom_liquid_9pDqa8": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n.video-hero-clean {\n  position: relative;\n  width: 100%;\n  height: 100vh;\n  overflow: hidden;\n}\n\n/* Video fills screen */\n.video-hero-clean video {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  min-width: 100%;\n  min-height: 100%;\n  width: auto;\n  height: auto;\n  transform: translate(-50%, -50%);\n  object-fit: cover;\n}\n\n/* Remove any spacing from section */\n#shopify-section-{{ section.id }} {\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n/* Fix for transparent header overlap */\n.video-hero-clean {\n  margin-top: calc(-1 * var(--header-height, 80px));\n}\n\n/* Mobile height fix */\n@media (max-width: 768px) {\n  .video-hero-clean {\n    height: 100svh;\n  }\n}\n</style>\n\n<div class=\"video-hero-clean\">\n  <video autoplay muted loop playsinline>\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/1d1ed5264d5e4c89b337c1adb632dff6.mp4\" type=\"video/mp4\">\n  </video>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_liquid_9pDqa8"
   ]
 }

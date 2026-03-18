@@ -11,6 +11,7 @@
   "sections": {
     "video_rkeJJD": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
