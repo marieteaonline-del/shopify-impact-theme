@@ -72,29 +72,14 @@
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/logo.png",
         "reduce_padding": false,
-        "background_opacity": 0,
+        "background_opacity": 100,
         "background_blur_radius": 0
-      }
-    },
-    "custom_liquid_9pDqa8": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n.video-hero-clean {\n  position: relative;\n  width: 100%;\n  overflow: hidden;\n}\n\n/* Remove spacing */\n#shopify-section-{{ section.id }} {\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n/* Desktop (full screen look if you want) */\n@media (min-width: 1025px) {\n  .video-hero-clean {\n    height: 100vh;\n  }\n\n  .video-hero-clean video {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    width: 100%;\n    height: 100%;\n    transform: translate(-50%, -50%);\n    object-fit: cover; /* desktop premium look */\n  }\n}\n\n/* Mobile & Tablet — NO crop, NO black bars */\n@media (max-width: 1024px) {\n  .video-hero-clean {\n    height: auto; /* 🔥 KEY */\n  }\n\n  .video-hero-clean video {\n    position: relative;\n    width: 100%;\n    height: auto; /* 🔥 keeps original ratio */\n    object-fit: contain;\n  }\n}\n\n/* Transparent header overlap */\n.video-hero-clean {\n  margin-top: calc(-1 * var(--header-height, 80px));\n}\n</style>\n\n<div class=\"video-hero-clean\">\n  <video autoplay muted loop playsinline>\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/1d1ed5264d5e4c89b337c1adb632dff6.mp4\" type=\"video/mp4\">\n  </video>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "custom_liquid_9pDqa8"
+    "header"
   ]
 }
