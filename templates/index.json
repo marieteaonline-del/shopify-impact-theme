@@ -16,7 +16,7 @@
         "full_width": true,
         "allow_transparent_header": true,
         "autoplay": true,
-        "video_size": "lg",
+        "video_size": "auto",
         "video": "shopify://files/videos/banner.mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
