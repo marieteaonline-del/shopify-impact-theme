@@ -72,6 +72,9 @@ the underlying logic of the menu.
         --header-grid-template: "logo main-nav secondary-nav" / {% if section.settings.layout == 'logo_left_navigation_inline' %}auto minmax(0, 1fr) minmax(0, max-content){% else %}minmax(0, 1fr) fit-content({{ max_percent }}) minmax(0, 1fr){% endif %};
       }
     }
+    #shopify-section-{{ section.id }} {
+  --header-grid-template: "logo main-nav secondary-nav" / auto 1fr auto !important;
+}
   {%- endif -%}
 </style>
 
