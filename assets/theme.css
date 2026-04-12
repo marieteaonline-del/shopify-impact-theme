@@ -9878,33 +9878,3 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
-/* Desktop only header layout for Impact theme */
-@media screen and (min-width: 1024px){
-
-.header__wrapper{
-display:grid;
-grid-template-columns:1fr;
-grid-template-areas:
-"logo"
-"main-nav"
-"secondary-nav";
-justify-items:center;
-}
-
-.header__logo{
-grid-area:logo;
-}
-
-.header__main-nav{
-grid-area:main-nav;
-}
-
-.header__secondary-nav{
-grid-area:secondary-nav;
-}
-
-.header__link-list{
-justify-content:center;
-}
-
-}
