@@ -9909,24 +9909,3 @@ justify-content:center;
 
 }
 
-/* Desktop only header icon position fix */
-@media screen and (min-width: 1024px){
-
-.header__wrapper{
-position:relative;
-}
-
-.header__secondary-nav .header__icon-list{
-position:absolute;
-top:20px;
-right:30px;
-display:flex;
-gap:18px;
-align-items:center;
-}
-
-.header__secondary-nav .header__link-list{
-display:none;
-}
-
-}
